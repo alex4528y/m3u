@@ -3,7 +3,7 @@ name: Update jstar.m3u
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */11 * * *'
+    - cron: '0 */2 * * *'
 
 jobs:
   update-file:
